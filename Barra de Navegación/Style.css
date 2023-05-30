@@ -1,0 +1,36 @@
+body{
+    background-color: aquamarine;
+}
+
+.navegación{
+    width: 100vw; /*vh view height, view width*/
+    height: 6vh;
+    background-color: rgb(226, 156, 43);
+    text-decoration: #282828;
+}
+
+.navegación a{
+    float: left;
+    color: white;
+    font-size: 20px;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.navegación a.activo{
+    background-color: burlywood;
+    color:rgb(219, 156, 73);
+}
+
+.navegación:hover a{
+    background-color: rgb(233, 65, 168);
+}
+
+.navegación a:hover{
+    background-color: rgb(219, 156, 73);
+    color: grey;
+    border: solid rgb(0, 147, 176);
+    border-radius: 10px;
+
+}

@@ -1,0 +1,60 @@
+/*
+A quien estoy refiriendome {
+   propiedad? : valor
+ } 
+ */
+
+ body{
+    margin: 0;
+    padding: 0;
+ }
+
+ #navegador{
+    background-color: #f42597;
+ } 
+
+ #logo{
+    height:60px;
+    margin: 10px;
+    padding: 10px;
+    border-radius: 20px;
+    /* margin-top:10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+    margin-right: 10px;*/
+
+ }
+
+#bloque{
+    float:right;
+    margin-top: 40px;
+}
+
+ .link{
+    color: #ffffff;
+    text-decoration: none;
+    /* padding-top: 35px;
+    padding-right: 27px;
+    padding-bottom: 40px;
+    padding-left: 25px; */
+    padding: 35px 27px 40px 25px;
+    font-family: Arial;
+ }
+
+ 
+#bloque a.activo{
+   background-color: rgba(248, 101, 194, 0.945);
+   color:rgba(195, 80, 27, 0.785);
+}
+
+#bloque:hover a{
+   background-color: rgba(248, 101, 194, 0.945);
+}
+
+#bloque a:hover{
+   background-color: rgba(248, 101, 194, 0.945);
+   color: rgba(195, 80, 27, 0.785y);
+   border: solid rgba(195, 80, 27, 0.785);
+   border-radius: 10px;
+
+}
